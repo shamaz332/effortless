@@ -1,9 +1,11 @@
 import React from "react";
+import ackTokens from "../assests/ackTokens.png";
 import binance from "../assests/binance.svg";
 import coins from "../assests/coins.svg";
 import elispse from "../assests/elipse.png";
 import ethiriumLogo from "../assests/ethiriumLogo.svg";
 import fire from "../assests/fire.svg";
+import graph from "../assests/graph.png";
 import percentage from "../assests/percentage.svg";
 
 const smallCards = () => {
@@ -145,35 +147,73 @@ const smallCards = () => {
         </div>
       </div>
 
-{/* small icons   part */}
+      {/* small icons   part */}
 
+      <div className="m-12 flex flex-wrap justify-around mt-20">
+        <div className="flex flex-col items-center justify-center">
+          <img className="fire p-3 h-20 w-20" src={fire} />
 
-<div className="m-12 flex flex-wrap justify-around mt-20">
-  <div className="flex flex-col items-center justify-center">
-    <img className="fire p-3 h-20 w-20" src={fire} />
+          <h1 className="font-semibold text-center text-small text_high_two">
+            Better gas than going directly to the source
+          </h1>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <img className="percentage p-3 h-20 w-20" src={percentage} />
+          <h1 className="font-semibold text-center text-small text_high_two">
+            We never collect any additional fees
+          </h1>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <img className="eye p-3 h-20 w-20" src={fire} />
+          <h1 className="font-semibold text-center text-small text_high_two">
+            We always display all the costs up front
+          </h1>
+        </div>
+      </div>
+      <div className=" text-center not-italic font-semibold md:text-4xl sm:text-lg text_high_two">
+        <h1>Your trading home</h1>
+      </div>
 
-        <h1 className="font-semibold text-center text-small text_high_two">Better gas than going
- directly to the source</h1>
-      
-  </div>
-  <div className="flex flex-col items-center justify-center">
-    <img className="percentage p-3 h-20 w-20" src={percentage} />
-    <h1 className="font-semibold text-center text-small text_high_two">We never collect any
- additional fees</h1>
-      
-  </div>
-  <div className="flex flex-col items-center justify-center">
-    <img className="eye p-3 h-20 w-20" src={fire} />
-    <h1 className="font-semibold text-center text-small text_high_two">We always display all
- the costs up front
-</h1>
-      
-  </div>
+<div>
+  
 </div>
+<div class="flex flex-wrap ml-auto mr-auto grid_tokens"> 
+  
+  
+<div class="w-full p-2 sm:w-1 md:w-1/2 tokens_sec">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col ackTokens">
+      <div class="token_img" 
+   ><img src={ackTokens}/>
+    </div>
+      <div class="p-4 flex-1 flex flex-col">
+        <h3 class="mb-4 text-2xl text_high_two">Track your tokens and
+  manage your positions</h3>
+    
+        <a href="/" class="text_high_toke wallet_line">See your portfolio</a>
 
+    
+      </div>
+    </div>  
+  </div>
+  <div class="w-full p-2 sm:w-1 md:w-1/2 tokens_sec">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col ackTokens">
+      <div class="token_img" 
+   ><img src={graph}/>
+    </div>
+      <div class="p-4 flex-1 flex flex-col">
+        <h3 class="mb-4 text-2xl text_high_two">Market, limit or OTC for
+any sized trades
+</h3>
+    
+        <a href="/" class="text_high_toke wallet_line">Start Trading</a>
 
+    
+      </div>
+    </div>  
+  </div>   
+</div>
     </div>
   );
-};
+}; 
 
 export default smallCards;
