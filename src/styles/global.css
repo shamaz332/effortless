@@ -248,3 +248,11 @@ margin-right: auto;
     height: 16px;
     width:16px
 }
+.footer-links > a{
+   
+      padding-bottom: 2px;
+      text-decoration: none;
+  }
+  .footer_heading{
+      color:#4C8AE2;
+  }
