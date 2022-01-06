@@ -138,6 +138,9 @@ border-radius: 43px;}
     padding-top: 4%;
     color: #555563;
 }
+.text_color{
+    color: #555563;
+}
 .text_high_toke{
     padding: 0 10%;
 }
@@ -227,4 +230,21 @@ margin-right: auto;
 
 .grid_tokens{
     padding: 5% 10%;
+}
+.wallt_img{
+    height: 50vh;
+  
+}
+.ackTokens_outer{
+margin-left: auto;
+margin-right: auto;
+    width: 80vw;
+}
+.vecter{
+    background-color: #E5E5E5;
+    box-shadow: -6px 22px 45px rgba(99, 91, 255, 0.2), inset -2px 4px 4px rgba(255, 255, 255, 0.62), inset 5px 4px 4px #FFFFFF, inset 2px -4px 8px rgba(0, 0, 0, 0.36);
+    padding: 1%;
+    border-radius: 50%;
+    height: 16px;
+    width:16px
 }
