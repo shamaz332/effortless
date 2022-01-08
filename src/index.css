@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 *{
-  font-family:Poppins
+  font-family:Poppins;
 }
 body {
   margin: 0;
@@ -11,6 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fffcf4;
+
 }
 
 code {
