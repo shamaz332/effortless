@@ -202,7 +202,7 @@ function CoinDetails() {
                     />
                   </svg>
                   <span>
-                    {" "}
+                    
                     <input
                       class="input_receive p-2"
                       id="inline-full-name"
@@ -230,38 +230,38 @@ function CoinDetails() {
         <div className="flex flex-wrap w-2/3 p-4 mt-4 items-center">
           <div class="relative w-40">
             <div class="absolute eth_logo">
-              {" "}
+              
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
-              </a>{" "}
-            </div>{" "}
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+              </a>
+            </div>
             <input class="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
           <div class="relative w-40">
             <div class="absolute eth_logo">
-              {" "}
+              
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
-              </a>{" "}
-            </div>{" "}
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+              </a>
+            </div>
             <input class="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
           <div class="relative w-40">
             <div class="absolute eth_logo">
-              {" "}
+              
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
-              </a>{" "}
-            </div>{" "}
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+              </a>
+            </div>
             <input class="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
           <div class="relative w-40">
             <div class="absolute eth_logo">
-              {" "}
+              
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
-              </a>{" "}
-            </div>{" "}
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+              </a>
+            </div>
             <input class="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
           <div>
@@ -299,7 +299,7 @@ function CoinDetails() {
           <div className="w-1/4">
             <p>Market Cap Rank</p>
             <p className="font-bold">$487B USD</p>
-          </div>{" "}
+          </div>
           <div className="border-l-2 text_color"></div>
           <div className="w-1/4">
             <p>Market Cap Rank</p>
@@ -315,7 +315,7 @@ function CoinDetails() {
           <div className="w-1/4">
             <p>24h Volume</p>
             <p className="font-bold">$487B USD</p>
-          </div>{" "}
+          </div>
           <div className="border-l-2 text_color"></div>
           <div className="w-1/4">
             <p>24h L $4052.64 H $4365.62</p>
