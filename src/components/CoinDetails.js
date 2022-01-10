@@ -59,10 +59,10 @@ const data = {
 function CoinDetails() {
   return (
     <div className="">
-      <div class="py-8 sm:py-12 px-40">
+      <div class="py-8 sm:py-12 lg:px-40 sm:px-4">
         <div className="flex flex-wrap">
           {/* graph */}
-          <div>
+          <div className="">
             <p className="text_color text-2xl font-medium">
               Ethereum <span className="span_clr"> (ETH) </span>
             </p>
@@ -72,7 +72,7 @@ function CoinDetails() {
               <span className="text_color"> Past 24 Hours </span>
             </p>
           </div>
-          <div className="lg:pl-20 sm:pl-0 sm:text-center">
+          <div className="lg:pl-20 sm:pl-0 ">
             <h2 class="text-lg pb-0 md:pb-0 font-medium inline-flex items-center">
               <span class="float-left mr-2 items-center eth_logo rounded-full">
                 <a href="#">
@@ -104,7 +104,7 @@ function CoinDetails() {
             </h2>
           </div>
         </div>
-{/* chart & order card  */}
+        {/* chart & order card  */}
         <div className="flex flex-wrap items-center">
           <div className="lg:w-3/4 sm:w-full">
             {/* chart    */}
@@ -223,17 +223,108 @@ function CoinDetails() {
                 {/* will have to  pass value to this dropdown  */}
               </div>
             </div>
-
-        
           </div>
         </div>
-<p className="text-3xl text_color">Trending Pairs</p>
+        <p className="text-3xl text_color">Trending Pairs</p>
 
-        <div class="relative">
-            <div class="absolute top-4 left-3"> <i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i> </div> <input type="text" class="h-14 w-96 pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none" placeholder="Search anything..."/>
-            <div class="absolute top-2 right-2"> <button class="h-10 w-20 text-white rounded-lg bg-red-500 hover:bg-red-600">Search</button> </div>
-      
-</div>
+        <div className="flex flex-wrap w-2/3 p-4 mt-4 items-center">
+          <div class="relative w-40">
+            <div class="absolute eth_logo">
+              {" "}
+              <a href="#">
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
+              </a>{" "}
+            </div>{" "}
+            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+          </div>
+          <div class="relative w-40">
+            <div class="absolute eth_logo">
+              {" "}
+              <a href="#">
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
+              </a>{" "}
+            </div>{" "}
+            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+          </div>
+          <div class="relative w-40">
+            <div class="absolute eth_logo">
+              {" "}
+              <a href="#">
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
+              </a>{" "}
+            </div>{" "}
+            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+          </div>
+          <div class="relative w-40">
+            <div class="absolute eth_logo">
+              {" "}
+              <a href="#">
+                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />{" "}
+              </a>{" "}
+            </div>{" "}
+            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+          </div>
+          <div>
+            <svg
+              class="-mr-1 ml-2 h-5 w-5"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <p className="text-3xl text_color mt-8 p-2">About Ethereum</p>
+        <p className="text-sm text_color mt-4 lg:w-3/4 sm:w-full p-2">
+          Ethereum is a smart contract platform that enables developers to
+          freely build decentralized applications. Ether (ETH) is Ethereum’s
+          native token that is used to pay transaction fees to miners. In
+          specific situations, for ETH to be exchanged with other Ethereum-based
+          tokens, it needs to be wrapped into WETH. Wrapping ETH does not affect
+          its value, 1 ETH = 1 WETH.
+        </p>
+
+        <div className="p-4 mt-10 lg:w-3/4 sm:w-full flex flex-wrap justify-between">
+          <div className="w-1/4">
+            <p>Market Cap Rank</p>
+            <p className="font-bold">#2</p>
+          </div>
+          <div className="border-l-2 text_color"></div>
+          <div className="w-1/4">
+            <p>Market Cap Rank</p>
+            <p className="font-bold">$487B USD</p>
+          </div>{" "}
+          <div className="border-l-2 text_color"></div>
+          <div className="w-1/4">
+            <p>Market Cap Rank</p>
+            <p className="font-bold">118,392,748 ETH</p>
+          </div>
+        </div>
+        <div className="p-4 mt-10 lg:w-3/4 sm:w-full flex flex-wrap justify-between">
+          <div className="w-1/4">
+            <p>All Time ROI</p>
+            <p className="font-bold">#2</p>
+          </div>
+          <div className="border-l-2 text_color"></div>
+          <div className="w-1/4">
+            <p>24h Volume</p>
+            <p className="font-bold">$487B USD</p>
+          </div>{" "}
+          <div className="border-l-2 text_color"></div>
+          <div className="w-1/4">
+            <p>24h L $4052.64 H $4365.62</p>
+            <p className="font-bold">118,392,748 ETH</p>
+          </div>
+        </div>
+        <div className="border-b-2 text_color mb-10 mt-10"></div>
+        <p className="p-2 text_color">Network</p>
+        <p className="p-2 text_color text-3xl">Ethereum (Chain 1)</p>
       </div>
     </div>
   );
