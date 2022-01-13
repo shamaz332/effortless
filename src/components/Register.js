@@ -12,7 +12,7 @@ const Register = () => {
         </p>
         <button
           type="button"
-          class="m-2 get_started w-40 rounded-md text-center py-2 bg-white text-xl font-medium text_color "
+          class="m-2 get_started w-40 text-center py-2 bg-white text-xl font-medium text_color "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
