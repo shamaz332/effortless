@@ -3,6 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import CoinDetails from "./components/CoinDetails";
 import FirstTimeSetup from "./components/Setup/FirstTimeSetup";
 import Footer from "./components/Footer";
+import GiminiSetup from "./components/Setup/GiminiSetup";
 import Home from "./views/home";
 import Navbar from './components/Navbar'
 import Register from "./components/Register";
@@ -18,6 +19,9 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="welcome" element={<Welcome />} />
         <Route path="firsttime" element={<FirstTimeSetup />} />
+        <Route path="gimini" element={<GiminiSetup />} />
+
+        
       </Routes>
       <Footer/>
     </div>
