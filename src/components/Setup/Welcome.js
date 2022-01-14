@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import binance_wel from "../../assests/binance_wel.svg";
 import coinbase from "../../assests/coinbase.svg";
@@ -62,7 +63,8 @@ const Welcome = () => {
           </p>
         </div>
 
-        <div className="lg:w-2/5 sm:w-full welcome_cards flex flex-col px-7 py-7">
+        <div className="lg:w-2/5 sm:w-full ">
+          <div className="w-3/4 welcome_cards flex flex-col px-7 py-7">
           <p className="text_color text-xl font-bold">Choose your path</p>
 
           <div className="welcome_border">
@@ -85,6 +87,7 @@ const Welcome = () => {
               </div>
               <div>
                 {/* arrow nev   */}
+                <Link to="firsttime">
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,11 +104,12 @@ const Welcome = () => {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </button>
+                </button></Link>
               </div>
-            </div>    </div>
-            {/* coinbase */}
-            
+            </div>{" "}
+          </div>
+          {/* coinbase */}
+
           <div className="welcome_border">
             <div className="flex flex-wrap p-2 justify-between items-center">
               <div className="flex">
@@ -115,15 +119,15 @@ const Welcome = () => {
                 </div>
                 <div className="ml-3">
                   {/* text    */}
-                  <p className="welcome_first_text text-sm">
-                  Coin base
-                  </p>
+                  <p className="welcome_first_text text-sm">Coin base</p>
                   <p className="welcome_second_text text-xs">
-                  Optimised experience                  </p>
+                    Optimised experience{" "}
+                  </p>
                 </div>
               </div>
               <div>
                 {/* arrow nev   */}
+                <Link to="coinbase">
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -140,14 +144,15 @@ const Welcome = () => {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </button>
+                </button></Link>
               </div>
-            </div></div>
+            </div>
+          </div>
 
-{/* gimini    */}
+          {/* gimini    */}
 
-<div className="welcome_border">
-<div className="flex flex-wrap p-2 justify-between items-center">
+          <div className="welcome_border">
+            <div className="flex flex-wrap p-2 justify-between items-center">
               <div className="flex">
                 <div>
                   {/* icon    */}
@@ -155,15 +160,15 @@ const Welcome = () => {
                 </div>
                 <div className="ml-3">
                   {/* text    */}
-                  <p className="welcome_first_text text-sm">
-                  Gimini
-                  </p>
+                  <p className="welcome_first_text text-sm">Gimini</p>
                   <p className="welcome_second_text text-xs">
-                  Optimised experience                 </p>
+                    Optimised experience{" "}
+                  </p>
                 </div>
               </div>
               <div>
                 {/* arrow nev   */}
+                <Link to="gimini">
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -180,13 +185,13 @@ const Welcome = () => {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </button>
+                </button></Link>
               </div>
             </div>
-            </div>
-{/* binance   */}
-<div className="welcome_border">
-<div className="flex flex-wrap p-2 justify-between items-center">
+          </div>
+          {/* binance   */}
+          <div className="welcome_border">
+            <div className="flex flex-wrap p-2 justify-between items-center">
               <div className="flex">
                 <div>
                   {/* icon    */}
@@ -195,14 +200,16 @@ const Welcome = () => {
                 <div className="ml-3">
                   {/* text    */}
                   <p className="welcome_first_text text-sm">
-                  It’s my first time
+                    It’s my first time
                   </p>
                   <p className="welcome_second_text text-xs">
-                  Optimised experience                 </p>
+                    Optimised experience{" "}
+                  </p>
                 </div>
               </div>
               <div>
                 {/* arrow nev   */}
+                <Link to="binance">
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -219,13 +226,12 @@ const Welcome = () => {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </button>
+                </button></Link>
               </div>
             </div>
-            </div>
-         
+          </div>
         </div>
-      </div>
+      </div></div>
     </div>
   );
 };

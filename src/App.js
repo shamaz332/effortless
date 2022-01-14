@@ -1,5 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 
+import BinancePath from "./components/Setup/BinancePath";
+import CoinBasePath from "./components/Setup/CoinBasePath";
 import CoinDetails from "./components/CoinDetails";
 import FirstTimeSetup from "./components/Setup/FirstTimeSetup";
 import Footer from "./components/Footer";
@@ -18,10 +20,11 @@ function App() {
         <Route path="coindetail" element={<CoinDetails />} />
         <Route path="register" element={<Register />} />
         <Route path="welcome" element={<Welcome />} />
-        <Route path="firsttime" element={<FirstTimeSetup />} />
-        <Route path="gimini" element={<GiminiSetup />} />
+        <Route path="welcome/firsttime" element={<FirstTimeSetup />} />
+        <Route path="welcome/gimini" element={<GiminiSetup />} />
+        <Route path="welcome/binance" element={<BinancePath />} />
+        <Route path="welcome/coinbase" element={<CoinBasePath />} />
 
-        
       </Routes>
       <Footer/>
     </div>

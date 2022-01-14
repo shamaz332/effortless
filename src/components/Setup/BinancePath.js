@@ -1,11 +1,12 @@
 import React from "react";
 import argent from "../../assests/argent.svg";
+import binance_path from "../../assests/binance_path.svg";
 import binance_wel from "../../assests/binance_wel.svg";
 import coinbase from "../../assests/coinbase.svg";
 import vector from "../../assests/vector.svg";
 import wallet from "../../assests/wallet.svg";
 
-const CoinBasePath = () => {
+const BinancePath = () => {
   return (
     <div>
       <div className="head_bg">
@@ -77,87 +78,87 @@ const CoinBasePath = () => {
         </div>
 
         <div className="lg:w-2/5 sm:w-full ">
-          <div className="welcome_cards flex flex-col px-7 py-7 w-3/4">
-            {" "}
-            <p className="text_color text-xl font-bold welcome_border">
-              Coinbase Wallet is optimized for Coinbase
-            </p>
-            {/* smily   */}
-            <div className="welcome_border flex flex-wrap p-3 pt-5 justify-between items-center">
-              <div className="flex">
-                <div>
+            <div className="welcome_cards flex flex-col px-7 py-7 w-3/4">          <p className="text_color text-xl font-bold welcome_border">
+            Trust Wallet is
+recommended by Binance                                     
+          </p>
+
+          {/* smily   */}
+          <div className="welcome_border flex flex-wrap p-3 pt-5 justify-between items-center">
+            <div className="flex">
+            <div>
                   {/* icon    */}
-                  <img src={coinbase} className="" />
+                  <img src={binance_path} className="binance_path" />
                 </div>
-                <div className="ml-3">
-                  {/* text    */}
-                  <p className="welcome_first_text text-sm">
-                    Continue with Trust
-                  </p>
-                  <p className="welcome_second_text text-xs">
-                    8min setup - Works in most apps
-                  </p>
-                </div>
-              </div>
-              <div>
-                {/* arrow nev   */}
-                <button className="p-2 inline-flex items-center ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    color="welcome_first_text"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </button>
+              <div className="ml-3">
+                {/* text    */}
+                <p className="welcome_first_text text-sm">
+                Continue with Trust                </p>
+                <p className="welcome_second_text text-xs">
+                8min setup - Works in most apps
+                </p>
               </div>
             </div>
-            <div className="flex flex-wrap p-3 pt-5 justify-between items-center">
-              <div className="flex"></div>
-              <div>
-                {/* icon    */}
-
-                <div className="ml-3">
-                  {/* text    */}
-                  <p className="welcome_first_text text-xl">
-                    Choose another wallet
-                  </p>
-                </div>
+            <div>
+              {/* arrow nev   */}
+              <button className="p-2 inline-flex items-center ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  color="welcome_first_text"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-wrap p-3 pt-5 justify-between items-center">
+            <div className="flex">
+                </div><div>
+                  {/* icon    */}
+                  
+              <div className="ml-3">
+                {/* text    */}
+                <p className="welcome_first_text text-xl">
+               Choose another wallet
+                </p>
+               
               </div>
-              <div>
-                {/* arrow nev   */}
-                <button className="p-2 inline-flex items-center ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    color="welcome_first_text"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </button>
-              </div>
+            </div>
+            <div>
+              {/* arrow nev   */}
+              <button className="p-2 inline-flex items-center ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  color="welcome_first_text"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
+
     </div>
   );
 };
 
-export default CoinBasePath;
+export default BinancePath;
