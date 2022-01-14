@@ -13,15 +13,15 @@ const BinancePath = () => {
         <header>
           {/* left      */}
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
+            <div className="flex flex-wrap items-center justify-between h-16">
               <div>
                 <p className="logo">effortless</p>
               </div>
               {/* search bar */}
               <div className="flex-grow-1 bg-gray-800 ">
                 <button className="p-2 inline-flex items-center ">
+                  <span className="welcome_btn mr-2">
                   <svg
-                    className="welcome_btn mr-2"
                     xmlns="http://www.w3.org/2000/svg"
                     class="h-6 w-6"
                     color="white"
@@ -35,7 +35,7 @@ const BinancePath = () => {
                       stroke-width="2"
                       d="M5 13l4 4L19 7"
                     />
-                  </svg>
+                  </svg></span>
                   <span>Create Wallet</span>
                 </button>
                 <button className="p-2 inline-flex items-center ">
@@ -78,7 +78,7 @@ const BinancePath = () => {
         </div>
 
         <div className="lg:w-2/5 sm:w-full ">
-            <div className="welcome_cards flex flex-col px-7 py-7 w-3/4">          <p className="text_color text-xl font-bold welcome_border">
+            <div className="lg:w-3/4 sm:w-full welcome_cards flex flex-col px-7 py-7">          <p className="text_color text-xl font-bold welcome_border">
             Trust Wallet is
 recommended by Binance                                     
           </p>
