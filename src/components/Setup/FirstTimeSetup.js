@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import binance_wel from "../../assests/binance_wel.svg";
 import coinbase from "../../assests/coinbase.svg";
@@ -24,7 +25,7 @@ const FirstTimeSetup = () => {
                   <svg
                     className="welcome_btn mr-2"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     color="white"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -62,19 +63,19 @@ const FirstTimeSetup = () => {
           </p>
           <div className="flex mt-4">
             <img src={vector} className="vecter_yellow" />
-            <h3 class="text_color ml-2">
+            <h3 className="text_color ml-2">
               Only you have access to your funds{" "}
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
             <img src={vector} className="vecter_yellow" />
-            <h3 class="text_color ml-2">
+            <h3 className="text_color ml-2">
               You can use your crypto with any Dapp
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
             <img src={vector} className="vecter_yellow" />
-            <h3 class="text_color ml-2">You can always switch wallets</h3>{" "}
+            <h3 className="text_color ml-2">You can always switch wallets</h3>{" "}
           </div>{" "}
         </div>
 
@@ -116,10 +117,11 @@ const FirstTimeSetup = () => {
             </div>
             <div>
               {/* arrow nev   */}
+              <Link to="bitski">
               <button className="p-2 inline-flex items-center ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-6"
+                  className="h-8 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -132,7 +134,7 @@ const FirstTimeSetup = () => {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className="flex flex-wrap p-3 pt-5 justify-between items-center">
@@ -142,7 +144,7 @@ const FirstTimeSetup = () => {
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -165,10 +167,11 @@ const FirstTimeSetup = () => {
             </div>
             <div>
               {/* arrow nev   */}
+              <Link to="argantapp">
               <button className="p-2 inline-flex items-center ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-6"
+                  className="h-8 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -181,7 +184,7 @@ const FirstTimeSetup = () => {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className="flex flex-wrap p-3 pt-5 justify-between items-center">
@@ -191,7 +194,7 @@ const FirstTimeSetup = () => {
 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -216,10 +219,11 @@ const FirstTimeSetup = () => {
             </div>
             <div>
               {/* arrow nev   */}
+              <Link to="metamask">
               <button className="p-2 inline-flex items-center ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-6"
+                  className="h-8 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -232,7 +236,7 @@ const FirstTimeSetup = () => {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>

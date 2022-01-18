@@ -12,7 +12,7 @@ const Register = () => {
         </p>
         <button
           type="button"
-          class="m-2 get_started w-40 text-center py-2 bg-white text-xl font-medium text_color "
+          className="m-2 get_started w-40 text-center py-2 bg-white text-xl font-medium text_color "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -25,7 +25,7 @@ const Register = () => {
       <div className="lg:w-2/5 sm:w-full flex flex-col justify-center items-center">
         <button
           type="button"
-          class="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
+          className="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -34,7 +34,7 @@ const Register = () => {
         </button>{" "}
         <button
           type="button"
-          class="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
+          className="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
@@ -43,7 +43,7 @@ const Register = () => {
         </button>{" "}
         <button
           type="button"
-          class="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
+          className="m-2 register_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"

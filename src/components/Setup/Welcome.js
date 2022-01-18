@@ -24,7 +24,7 @@ const Welcome = () => {
                   <svg
                     className="welcome_btn mr-2"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     color="white"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -92,7 +92,7 @@ const Welcome = () => {
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
+                    className="h-8 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -132,7 +132,7 @@ const Welcome = () => {
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
+                    className="h-8 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -173,7 +173,7 @@ const Welcome = () => {
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
+                    className="h-8 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -214,7 +214,7 @@ const Welcome = () => {
                 <button className="p-2 inline-flex items-center ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-8 w-6"
+                    className="h-8 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

@@ -14,71 +14,71 @@ import unicorn from "../assests/unicorn.svg";
 const CryptoCards = () => {
   return (
     <div className="cards_container">
-     <div class="container my-12 mx-auto px-4 md:px-12">
-    <div class="flex flex-wrap justify-center -mx-2 lg:-mx-1">
-          <div class="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card1">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+     <div className="container my-12 mx-auto px-4 md:px-12">
+    <div className="flex flex-wrap justify-center -mx-2 lg:-mx-1">
+          <div className="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card1">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-firstCardBg">
+                <span className="float-right p-1 rounded-full bg-firstCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={firstCardicon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="ethLogo" class="h-40 w-40" src={ethLogo} />
+              <header className="flex items-center justify-center">
+                <img alt="ethLogo" className="h-40 w-40" src={ethLogo} />
               </header>
             </article>
           </div>
 
           {/* seconf card  */}
-          <div class="test b-30 m-6 px-1 mb-10 w-full md:w-1/2 lg:px-4 lg:w-64 crypto_card2">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+          <div className="test b-30 m-6 px-1 mb-10 w-full md:w-1/2 lg:px-4 lg:w-64 crypto_card2">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-secondCardBg">
+                <span className="float-right p-1 rounded-full bg-secondCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={secondcardIcon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="btc_icon" class="h-40 w-40" src={btc_icon} />
+              <header className="flex items-center justify-center">
+                <img alt="btc_icon" className="h-40 w-40" src={btc_icon} />
               </header>
             </article>
           </div>
           {/* third card    */}
-          <div class="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card3">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+          <div className="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card3">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-thirdCardBg">
+                <span className="float-right p-1 rounded-full bg-thirdCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={thirdCardicon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="ethLogo" class="h-40 w-40" src={thirdCardMainIcon} />
+              <header className="flex items-center justify-center">
+                <img alt="ethLogo" className="h-40 w-40" src={thirdCardMainIcon} />
               </header>
             </article>
           </div>
@@ -90,71 +90,71 @@ const CryptoCards = () => {
 Ethereum, Binance, Polygon tokens
 </h3>
 </div>
-<div class="container my-12 mx-auto px-4 md:px-12">
-    <div class="flex flex-wrap justify-center -mx-2 lg:-mx-1">
-          <div class="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card4">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+<div className="container my-12 mx-auto px-4 md:px-12">
+    <div className="flex flex-wrap justify-center -mx-2 lg:-mx-1">
+          <div className="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card4">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-firstCardBg">
+                <span className="float-right p-1 rounded-full bg-firstCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={firstCardicon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="ethLogo" class="h-40 w-40" src={unicorn} />
+              <header className="flex items-center justify-center">
+                <img alt="ethLogo" className="h-40 w-40" src={unicorn} />
               </header>
             </article>
           </div>
 
           {/* fifth card  */}
-          <div class="test b-30 m-6 px-1 mb-10 w-full md:w-1/2 lg:px-4 lg:w-64 crypto_card5">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+          <div className="test b-30 m-6 px-1 mb-10 w-full md:w-1/2 lg:px-4 lg:w-64 crypto_card5">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-secondCardBg">
+                <span className="float-right p-1 rounded-full bg-secondCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={secondcardIcon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="btc_icon" class="h-40 w-40" src={bitcoin} />
+              <header className="flex items-center justify-center">
+                <img alt="btc_icon" className="h-40 w-40" src={bitcoin} />
               </header>
             </article>
           </div>
           {/* six card    */}
-          <div class="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card6">
-            <article class="overflow-hidden rounded-lg">
-              <h2 class="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
+          <div className="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card6">
+            <article className="overflow-hidden rounded-lg">
+              <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
-                <span class="float-right p-1 rounded-full bg-thirdCardBg">
+                <span className="float-right p-1 rounded-full bg-thirdCardBg">
                   <a href="#">
                     <img
                       alt="Placeholder"
-                      class=" h-5 w-5"
+                      className=" h-5 w-5"
                       src={thirdCardicon}
                     />
                   </a>
                 </span>
               </h2>
-              <h2 class="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
+              <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
-              <header class="flex items-center justify-center">
-                <img alt="ethLogo" class="h-40 w-40" src={egg} />
+              <header className="flex items-center justify-center">
+                <img alt="ethLogo" className="h-40 w-40" src={egg} />
               </header>
             </article>
           </div>

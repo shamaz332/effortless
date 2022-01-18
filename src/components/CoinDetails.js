@@ -59,7 +59,7 @@ const data = {
 function CoinDetails() {
   return (
     <div className="">
-      <div class="py-8 sm:py-12 lg:px-40 sm:px-4">
+      <div className="py-8 sm:py-12 lg:px-40 sm:px-4">
         <div className="flex flex-wrap">
           {/* graph */}
           <div className="">
@@ -73,12 +73,12 @@ function CoinDetails() {
             </p>
           </div>
           <div className="lg:pl-20 sm:pl-0 ">
-            <h2 class="text-lg pb-0 md:pb-0 font-medium inline-flex items-center">
-              <span class="float-left mr-2 items-center eth_logo rounded-full">
+            <h2 className="text-lg pb-0 md:pb-0 font-medium inline-flex items-center">
+              <span className="float-left mr-2 items-center eth_logo rounded-full">
                 <a href="#">
                   <img
                     alt="Placeholder"
-                    class=" h-10 w-10"
+                    className=" h-10 w-10"
                     src={ethiriumLogo}
                   />
                 </a>
@@ -111,7 +111,7 @@ function CoinDetails() {
             <Line options={options} data={data} />
           </div>
 
-          <div class="lg:w-1/4 sm:w-full ackTokens p-6">
+          <div className="lg:w-1/4 sm:w-full ackTokens p-6">
             <div className="flex items-center justify-between border-b border-textClr p-2">
               <p>Market</p>
               <p>Limit</p>
@@ -138,14 +138,14 @@ function CoinDetails() {
               <div>
                 <button
                   type="button"
-                  class="inline-flex items-center w-full rounded-md shadow-sm py-2 bg-white text-xl font-medium text_color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                  className="inline-flex items-center w-full rounded-md shadow-sm py-2 bg-white text-xl font-medium text_color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                   id="menu-button"
                   aria-expanded="true"
                   aria-haspopup="true"
                 >
                   Choose Token
                   <svg
-                    class="-mr-1 ml-2 h-5 w-5"
+                    className="-mr-1 ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -182,14 +182,14 @@ function CoinDetails() {
               <div>
                 <button
                   type="button"
-                  class="inline-flex items-center w-full rounded-md shadow-sm py-2 bg-white text-xl font-medium text_color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                  className="inline-flex items-center w-full rounded-md shadow-sm py-2 bg-white text-xl font-medium text_color focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                   id="menu-button"
                   aria-expanded="true"
                   aria-haspopup="true"
                 >
                   ETH
                   <svg
-                    class="-mr-1 ml-2 h-5 w-5"
+                    className="-mr-1 ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -204,7 +204,7 @@ function CoinDetails() {
                   <span>
                     
                     <input
-                      class="input_receive p-2"
+                      className="input_receive p-2"
                       id="inline-full-name"
                       type="text"
                     />
@@ -213,7 +213,7 @@ function CoinDetails() {
 
                 <button
                   type="button"
-                  class="m-2 review_order_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
+                  className="m-2 review_order_btn w-full rounded-md text-center py-2 bg-white text-xl font-medium text_color "
                   id="menu-button"
                   aria-expanded="true"
                   aria-haspopup="true"
@@ -228,45 +228,45 @@ function CoinDetails() {
         <p className="text-3xl text_color">Trending Pairs</p>
 
         <div className="flex flex-wrap w-2/3 p-4 mt-4 items-center">
-          <div class="relative w-40">
-            <div class="absolute eth_logo">
+          <div className="relative w-40">
+            <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
-            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+            <input className="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
-          <div class="relative w-40">
-            <div class="absolute eth_logo">
+          <div className="relative w-40">
+            <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
-            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+            <input className="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
-          <div class="relative w-40">
-            <div class="absolute eth_logo">
+          <div className="relative w-40">
+            <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
-            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+            <input className="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
-          <div class="relative w-40">
-            <div class="absolute eth_logo">
+          <div className="relative w-40">
+            <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" class=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
-            <input class="input_pairs p-2" id="inline-full-name" type="text" />
+            <input className="input_pairs p-2" id="inline-full-name" type="text" />
           </div>
           <div>
             <svg
-              class="-mr-1 ml-2 h-5 w-5"
+              className="-mr-1 ml-2 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"

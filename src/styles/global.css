@@ -443,3 +443,41 @@ margin-right: auto;
     
     }
 }
+
+.menu_home{
+    background: linear-gradient(254.92deg, #F6EDCF -98.27%, rgba(255, 255, 255, 0.47) 171.55%);
+box-shadow: -22px 45px 45px rgba(255, 241, 82, 0.06), inset -4px -4px 9px rgba(0, 0, 0, 0.18), inset 7px 7px 4px #FFFFFF, inset 7px -3px 8px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(124px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 17px;
+width:20vw;
+padding: 60%;
+}
+.menu_btn{
+    background: linear-gradient(262.9deg, #C6F1FF -1.46%, #DAD2D8 105.2%);
+box-shadow: -43px -20px 36px rgba(255, 255, 255, 0.31), 4px 15px 16px rgba(0, 0, 0, 0.05), inset 0px 4px 8px #FFFFFF, inset 0px -1px 7px rgba(0, 0, 0, 0.24);
+border-radius: 85px;
+padding:5%
+}
+
+.bitski_btn{
+    background: linear-gradient(89.88deg, #FFDCDC 21.73%, rgba(255, 255, 255, 0) 190.98%);
+box-shadow: inset 0px -2px 2px #FFFFFF, inset 0px 4px 4px rgba(0, 0, 0, 0.22);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.12));
+border-radius: 37px;
+padding:5px
+}
+
+.text_red{
+    color:rgb(245, 107, 107)
+}
+.small_text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(79, 78, 96, 0.72);
+}

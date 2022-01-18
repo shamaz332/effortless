@@ -1,9 +1,10 @@
 import "../styles/global.css";
 
+import { BellIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, UserCircleIcon } from "@heroicons/react/solid";
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 
-import { Transition } from "@headlessui/react";
 import arrow from "../assests/Arrow 3.svg";
 import header_wallet from "../assests/header_wallet.svg";
 
@@ -80,10 +81,66 @@ function Nav() {
                 </svg>
                 <span>Trade</span>
               </button>
-              <div className="nav_pop cursor-pointer flex items-center space-x-2 rounded-full p-2">
-                <MenuIcon className="h-6 " />
-                <UserCircleIcon className="h-6" />
-              </div>
+
+              <Menu as="div" className="ml-3 relative">
+                <div>
+                  <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                    <span className="sr-only">Open user menu</span>
+                    <div className="nav_pop cursor-pointer flex items-center space-x-2 rounded-full p-2">
+                      <MenuIcon className="h-6 " />
+                      <UserCircleIcon className="h-6" />
+                    </div>
+                  </Menu.Button>
+                </div>
+                <Transition
+                  as={Fragment}
+                  enter="transition ease-out duration-100"
+                  enterFrom="transform opacity-0 scale-95"
+                  enterTo="transform opacity-100 scale-100"
+                  leave="transition ease-in duration-75"
+                  leaveFrom="transform opacity-100 scale-100"
+                  leaveTo="transform opacity-0 scale-95"
+                >
+                  <Menu.Items className="flex flex-col origin-top-right absolute right-0 mt-2 menu_home">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button className="menu_btn mb-5">
+                          Connect wallet
+                        </button>
+                      )}
+                    </Menu.Item>
+                    <div className="border-b-2 text_color"></div>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a href="#" className="mt-4 mb-2">
+                          Request New features
+                        </a>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a href="#" className="mt-2 mb-2">
+                          Buy Crypto wiith Flat
+                        </a>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a href="#" className="mt-2 mb-2">
+                          Help Centre
+                        </a>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a href="#" className="mt-2 mb-2">
+                          Swiitch to Dark Mode
+                        </a>
+                      )}
+                    </Menu.Item>
+                  </Menu.Items>
+                </Transition>
+              </Menu>
             </div>{" "}
           </div>
         </div>
@@ -163,8 +220,6 @@ function Nav() {
         </Transition>
       </header>
       {/* header body  */}
-
-   
     </div>
   );
 }
