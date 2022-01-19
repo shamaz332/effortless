@@ -23,7 +23,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-right rounded-full eth_logo">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -38,7 +38,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-right eth_logo rounded-full">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -53,7 +53,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-right eth_logo rounded-full">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -79,7 +79,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-left mr-5 eth_logo rounded-full">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -94,7 +94,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-left mr-5 eth_logo rounded-full">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -109,7 +109,7 @@ const smallCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 Ethereum{" "}
                 <span className="float-left mr-5 eth_logo rounded-full">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-12 w-12"
@@ -221,7 +221,7 @@ const smallCards = () => {
                       </h3>{" "}
                     </div>{" "}
                     <div className="flex text_high_toke mt-4">
-                      <img src={vector} className="vecter" />
+                      <img alt="vecter" src={vector} className="vecter" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
@@ -229,13 +229,13 @@ const smallCards = () => {
                   </div>{" "}
                   <div className="flex">
                     <div className="flex text_high_toke mt-4">
-                      <img src={vector} className="vecter" />
+                      <img alt="vecter" src={vector} className="vecter" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
                     </div>{" "}
                     <div className="flex text_high_toke mt-4">
-                      <img src={vector} className="vecter" />
+                      <img alt="vecter" src={vector} className="vecter" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
@@ -244,7 +244,7 @@ const smallCards = () => {
                 </div>{" "}
                 <div>
                   <div>
-                    <img src={wallet} className="wallt_img" />
+                    <img alt="vecter" src={wallet} className="wallt_img" />
                   </div>{" "}
                 </div>{" "}
               </header>{" "}

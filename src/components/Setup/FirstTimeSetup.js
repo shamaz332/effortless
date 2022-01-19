@@ -64,13 +64,13 @@ const FirstTimeSetup = () => {
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
-            <img alt="vecter" src={vector} className="vecter_yellow" />
+            <img alt="vecter2" src={vector} className="vecter_yellow" />
             <h3 className="text_color ml-2">
               You can use your crypto with any Dapp
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
-            <img alt="vecter" src={vector} className="vecter_yellow" />
+            <img alt="vecter3" src={vector} className="vecter_yellow" />
             <h3 className="text_color ml-2">You can always switch wallets</h3>{" "}
           </div>{" "}
         </div>

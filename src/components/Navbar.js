@@ -1,12 +1,8 @@
 import "../styles/global.css";
 
-import { BellIcon, XIcon } from "@heroicons/react/outline";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import {Menu, Transition } from "@headlessui/react";
 import { MenuIcon, UserCircleIcon } from "@heroicons/react/solid";
 import React, { Fragment, useState } from "react";
-
-import arrow from "../assests/Arrow 3.svg";
-import header_wallet from "../assests/header_wallet.svg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -112,28 +108,28 @@ function Nav() {
                     <div className="border-b-2 text_color"></div>
                     <Menu.Item>
                       {({ active }) => (
-                        <a href="#" className="mt-4 mb-2">
+                        <a href="/" className="mt-4 mb-2">
                           Request New features
                         </a>
                       )}
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <a href="#" className="mt-2 mb-2">
+                        <a href="/" className="mt-2 mb-2">
                           Buy Crypto wiith Flat
                         </a>
                       )}
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <a href="#" className="mt-2 mb-2">
+                        <a href="/" className="mt-2 mb-2">
                           Help Centre
                         </a>
                       )}
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <a href="#" className="mt-2 mb-2">
+                        <a href="/" className="mt-2 mb-2">
                           Swiitch to Dark Mode
                         </a>
                       )}
@@ -202,14 +198,14 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
+                  href="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Trade

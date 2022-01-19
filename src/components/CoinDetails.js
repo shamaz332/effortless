@@ -75,7 +75,7 @@ function CoinDetails() {
           <div className="lg:pl-20 sm:pl-0 ">
             <h2 className="text-lg pb-0 md:pb-0 font-medium inline-flex items-center">
               <span className="float-left mr-2 items-center eth_logo rounded-full">
-                <a href="#">
+                <a href="/">
                   <img
                     alt="ethiriumLogo"
                     className=" h-10 w-10"
@@ -231,8 +231,8 @@ function CoinDetails() {
           <div className="relative w-40">
             <div className="absolute eth_logo">
               
-              <a href="#">
-                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
+              <a href="/">
+                <img alt="ethiriumLogo3" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -240,8 +240,8 @@ function CoinDetails() {
           <div className="relative w-40">
             <div className="absolute eth_logo">
               
-              <a href="#">
-                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
+              <a href="/">
+                <img alt="ethiriumLogo4" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -249,8 +249,8 @@ function CoinDetails() {
           <div className="relative w-40">
             <div className="absolute eth_logo">
               
-              <a href="#">
-                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
+              <a href="/">
+                <img alt="ethiriumLogo5" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -258,8 +258,8 @@ function CoinDetails() {
           <div className="relative w-40">
             <div className="absolute eth_logo">
               
-              <a href="#">
-                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
+              <a href="/">
+                <img alt="ethiriumLogo2" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />

@@ -21,7 +21,7 @@ const CryptoCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-firstCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
                       alt="Placeholder"
                       className=" h-5 w-5"
@@ -44,9 +44,9 @@ const CryptoCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-secondCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
-                      alt="Placeholder"
+                      alt="Placeholder2"
                       className=" h-5 w-5"
                       src={secondcardIcon}
                     />
@@ -66,9 +66,9 @@ const CryptoCards = () => {
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-thirdCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
-                      alt="Placeholder"
+                      alt="Placeholder3"
                       className=" h-5 w-5"
                       src={thirdCardicon}
                     />
@@ -78,7 +78,7 @@ const CryptoCards = () => {
               <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
               <header className="flex items-center justify-center">
-                <img alt="ethLogo" className="h-40 w-40" src={thirdCardMainIcon} />
+                <img alt="ethLogo4" className="h-40 w-40" src={thirdCardMainIcon} />
               </header>
             </article>
           </div>
@@ -97,9 +97,9 @@ Ethereum, Binance, Polygon tokens
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-firstCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
-                      alt="Placeholder"
+                      alt="Placeholder4"
                       className=" h-5 w-5"
                       src={firstCardicon}
                     />
@@ -109,7 +109,7 @@ Ethereum, Binance, Polygon tokens
               <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
               <header className="flex items-center justify-center">
-                <img alt="ethLogo" className="h-40 w-40" src={unicorn} />
+                <img alt="ethLogo2" className="h-40 w-40" src={unicorn} />
               </header>
             </article>
           </div>
@@ -120,9 +120,9 @@ Ethereum, Binance, Polygon tokens
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-secondCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
-                      alt="Placeholder"
+                      alt="Placeholder6"
                       className=" h-5 w-5"
                       src={secondcardIcon}
                     />
@@ -142,9 +142,9 @@ Ethereum, Binance, Polygon tokens
               <h2 className="text-lg p-4 md:p-6 pb-0 md:pb-0 font-bold">
                 ETH
                 <span className="float-right p-1 rounded-full bg-thirdCardBg">
-                  <a href="#">
+                  <a href="/">
                     <img
-                      alt="Placeholder"
+                      alt="Placeholder7"
                       className=" h-5 w-5"
                       src={thirdCardicon}
                     />
@@ -154,7 +154,7 @@ Ethereum, Binance, Polygon tokens
               <h2 className="font-bold text-lg pl-6 md:pl-6"> $4, 721.63 </h2>
               <p className="font-bold pl-6 md:pl-6"> +2.87 % </p>
               <header className="flex items-center justify-center">
-                <img alt="ethLogo" className="h-40 w-40" src={egg} />
+                <img alt="ethLogo3" className="h-40 w-40" src={egg} />
               </header>
             </article>
           </div>

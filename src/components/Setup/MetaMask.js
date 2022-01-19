@@ -70,7 +70,7 @@ Only you have access to your accounts and data
 
         <div className="lg:w-2/5 sm:w-full ">
           <div className="welcome_cards flex flex-col justify-center items-center px-7 py-7 lg:w-3/4 sm:w-full">
-          <img alt="metamasksmll" src={metamasksmll} className="w-10" />
+          <img alt="metamasksmll2" src={metamasksmll} className="w-10" />
 
             <div className="welcome_border">
             <p className="text_color text-xl text-center font-bold">

@@ -17,16 +17,16 @@ const Footer = () => {
             </div>
 
             <div className="list-none flex justify-between sm:w-full px-4 md:w-1/2">
-              <a href="#" className="text-2xl text_color">
+              <a href="/" className="text-2xl text_color">
                 Buy Crypto
               </a>
-              <a href="#" className="text-2xl text_color">
+              <a href="/" className="text-2xl text_color">
                 Blog
               </a>
-              <a href="#" className="text-2xl text_color">
+              <a href="/" className="text-2xl text_color">
                 Help
               </a>
-              <a href="#" className="text-2xl text_color">
+              <a href="/" className="text-2xl text_color">
                 Terms
               </a>
             </div>

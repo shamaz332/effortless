@@ -51,22 +51,22 @@ const home = () => {
               <h5 className="text-4xl font-bold mb-6 footer_heading">Help</h5>
               <ul className="list-none footer-links">
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Getting Started
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Frequently asked questions
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Tokens
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Wallets
                   </a>
                 </li>
@@ -76,22 +76,22 @@ const home = () => {
               <h5 className="text-4xl font-bold mb-6 footer_heading">Community</h5>
               <ul className="list-none footer-links">
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Getting Started
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Frequently asked questions
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Tokens
                   </a>
                 </li>
                 <li className="mb-8">
-                  <a href="#" className="text-2xl text_color">
+                  <a href="/" className="text-2xl text_color">
                     Wallets
                   </a>
                 </li>
