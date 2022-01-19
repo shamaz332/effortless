@@ -21,6 +21,7 @@ const home = () => {
 
           <button className="p-2 wallet_btn inline-flex items-center">
             <img
+            alt="header_wallet"
               className="hidden md:flex header_wallet "
               src={header_wallet}
             />
@@ -28,6 +29,7 @@ const home = () => {
               Start Trading
             </span>
             <img
+            alt="arrow"
               className="hidden md:flex pr-2 header_wallet_arrow"
               src={arrow}
             />

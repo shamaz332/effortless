@@ -61,7 +61,7 @@ const ArgantMobile = () => {
 a mobile device. Only you have access to your accounts and data.
             </h3>{" "}
           </div>{" "}
-          <img src={argantapp} className="w-1/2 mt-10" />
+          <img alt="argantapp" src={argantapp} className="w-1/2 mt-10" />
 
       
         </div>
@@ -74,7 +74,7 @@ a mobile device. Only you have access to your accounts and data.
             Scan to Download
             </p>
         
-            <img src={qr} className="w-40" />
+            <img alt="qr" src={qr} className="w-40" />
 
          
             <button

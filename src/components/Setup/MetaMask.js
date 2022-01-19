@@ -63,14 +63,14 @@ tokens from your browser extension.
 Only you have access to your accounts and data
             </h3>{" "}
           </div>{" "}
-          <img src={metamaskpic} className="w-1/2 mt-10" />
+          <img alt="metamaskpic" src={metamaskpic} className="w-1/2 mt-10" />
 
       
         </div>
 
         <div className="lg:w-2/5 sm:w-full ">
           <div className="welcome_cards flex flex-col justify-center items-center px-7 py-7 lg:w-3/4 sm:w-full">
-          <img src={metamasksmll} className="w-10" />
+          <img alt="metamasksmll" src={metamasksmll} className="w-10" />
 
             <div className="welcome_border">
             <p className="text_color text-xl text-center font-bold">

@@ -53,24 +53,24 @@ const CoinBasePath = () => {
 
       <div className="flex flex-wrap justify-center items-center p-4">
         <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
-          <img src={wallet} className="w-64" />
+          <img alt="wallet" src={wallet} className="w-64" />
           <p className="text_color lg:text-5xl sm:text-sm">
             Set up a wallet to store crypto
           </p>
           <div className="flex mt-4">
-            <img src={vector} className="vecter_yellow" />
+            <img alt="vecter" src={vector} className="vecter_yellow" />
             <h3 className="text_color ml-2">
               Only you have access to your funds{" "}
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
-            <img src={vector} className="vecter_yellow" />
+            <img alt="vecter" src={vector} className="vecter_yellow" />
             <h3 className="text_color ml-2">
               You can use your crypto with any Dapp
             </h3>{" "}
           </div>{" "}
           <div className="flex mt-4">
-            <img src={vector} className="vecter_yellow" />
+            <img alt="vecter" src={vector} className="vecter_yellow" />
             <h3 className="text_color ml-2">You can always switch wallets</h3>{" "}
           </div>{" "}
         </div>
@@ -86,7 +86,7 @@ const CoinBasePath = () => {
               <div className="flex">
                 <div>
                   {/* icon    */}
-                  <img src={coinbase} className="" />
+                  <img alt="coinbase" src={coinbase} className="" />
                 </div>
                 <div className="ml-3">
                   {/* text    */}

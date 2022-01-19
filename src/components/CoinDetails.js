@@ -77,7 +77,7 @@ function CoinDetails() {
               <span className="float-left mr-2 items-center eth_logo rounded-full">
                 <a href="#">
                   <img
-                    alt="Placeholder"
+                    alt="ethiriumLogo"
                     className=" h-10 w-10"
                     src={ethiriumLogo}
                   />
@@ -232,7 +232,7 @@ function CoinDetails() {
             <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -241,7 +241,7 @@ function CoinDetails() {
             <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -250,7 +250,7 @@ function CoinDetails() {
             <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />
@@ -259,7 +259,7 @@ function CoinDetails() {
             <div className="absolute eth_logo">
               
               <a href="#">
-                <img alt="Placeholder" className=" h-10 w-10" src={ethiriumLogo} />
+                <img alt="ethiriumLogo" className=" h-10 w-10" src={ethiriumLogo} />
               </a>
             </div>
             <input className="input_pairs p-2" id="inline-full-name" type="text" />

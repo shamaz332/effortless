@@ -56,7 +56,7 @@ const Welcome = () => {
 
       <div className="flex flex-wrap justify-center items-center p-4">
         <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
-          <img src={wallet} className="w-64" />
+          <img alt="wallet" src={wallet} className="w-64" />
           <p className="text_color lg:text-3xl sm:text-sm">Welcome to DeFi</p>
           <p className="text_color ">
             We will guide you through the process of creating a wallet and
@@ -74,7 +74,7 @@ const Welcome = () => {
               <div className="flex">
                 <div>
                   {/* icon    */}
-                  <img src={smily} className="smily" />
+                  <img alt="smily" src={smily} className="smily" />
                 </div>
                 <div className="ml-3">
                   {/* text    */}
@@ -116,7 +116,7 @@ const Welcome = () => {
               <div className="flex">
                 <div>
                   {/* icon    */}
-                  <img src={coinbase} className="smily_other" />
+                  <img alt="coinbase" src={coinbase} className="smily_other" />
                 </div>
                 <div className="ml-3">
                   {/* text    */}
@@ -157,7 +157,7 @@ const Welcome = () => {
               <div className="flex">
                 <div>
                   {/* icon    */}
-                  <img src={gimini} className="smily_other" />
+                  <img alt="gimini" src={gimini} className="smily_other" />
                 </div>
                 <div className="ml-3">
                   {/* text    */}
@@ -196,7 +196,7 @@ const Welcome = () => {
               <div className="flex">
                 <div>
                   {/* icon    */}
-                  <img src={binance_wel} className="smily_other" />
+                  <img alt="binance" src={binance_wel} className="smily_other" />
                 </div>
                 <div className="ml-3">
                   {/* text    */}

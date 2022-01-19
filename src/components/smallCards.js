@@ -14,7 +14,7 @@ const smallCards = () => {
   return (
     <div>
       <div className="hidden lg:flex justify-center mt-5 ">
-        <img src={elispse} className="elipse" />
+        <img src={elispse} alt="elispse" className="elipse" />
       </div>{" "}
       <div className="container my-12 mx-auto px-4 md:px-12">
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
@@ -131,10 +131,10 @@ const smallCards = () => {
         <div className="flex flex-col">
           <div className="h-20 lg:pl-12 sm:pl-5 lg:pt-12 sm:pt-5">
             <div className="binance_small h-20 w-20 float-left">
-              <img src={binance} />{" "}
+              <img alt="binance" src={binance} />{" "}
             </div>{" "}
             <div className="eth_logo h-20 w-20 absolute ml-14">
-              <img src={ethiriumLogo} />{" "}
+              <img alt="ethiriumLogo" src={ethiriumLogo} />{" "}
             </div>{" "}
           </div>{" "}
           <br />
@@ -150,19 +150,19 @@ const smallCards = () => {
       {/* small icons   part */}
       <div className="m-12 flex flex-wrap justify-around mt-20">
         <div className="flex flex-col items-center justify-center">
-          <img className="fire p-3 h-20 w-20" src={fire} />
+          <img alt="fire" className="fire p-3 h-20 w-20" src={fire} />
           <h1 className="font-semibold text-center text-small text_high_two">
             Better gas than going directly to the source{" "}
           </h1>{" "}
         </div>{" "}
         <div className="flex flex-col items-center justify-center">
-          <img className="percentage p-3 h-20 w-20" src={percentage} />{" "}
+          <img alt="percentage" className="percentage p-3 h-20 w-20" src={percentage} />{" "}
           <h1 className="font-semibold text-center text-small text_high_two">
             We never collect any additional fees{" "}
           </h1>{" "}
         </div>{" "}
         <div className="flex flex-col items-center justify-center">
-          <img className="eye p-3 h-20 w-20" src={fire} />{" "}
+          <img alt="fire" className="eye p-3 h-20 w-20" src={fire} />{" "}
           <h1 className="font-semibold text-center text-small text_high_two">
             We always display all the costs up front{" "}
           </h1>{" "}
@@ -175,7 +175,7 @@ const smallCards = () => {
         <div className="w-full p-2 sm:w-1 md:w-1/2 tokens_sec">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col ackTokens">
             <div className="token_img">
-              <img src={ackTokens} />{" "}
+              <img alt="ackTokens" src={ackTokens} />{" "}
             </div>{" "}
             <div className="p-4 flex-1 flex flex-col">
               <h3 className="mb-4 text-2xl text_high_two">
@@ -190,7 +190,7 @@ const smallCards = () => {
         <div className="w-full p-2 sm:w-1 md:w-1/2 tokens_sec">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col ackTokens">
             <div className="token_img">
-              <img src={graph} />{" "}
+              <img alt="graph" src={graph} />{" "}
             </div>{" "}
             <div className="p-4 flex-1 flex flex-col">
               <h3 className="mb-4 text-2xl text_high_two">
@@ -215,7 +215,7 @@ const smallCards = () => {
                   </div>
                   <div className="flex">
                     <div className="flex text_high_toke mt-4">
-                      <img src={vector} className="vecter" />
+                      <img alt="vecter" src={vector} className="vecter" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}

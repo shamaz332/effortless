@@ -5,7 +5,7 @@ const Register = () => {
   return (
     <div className="flex flex-wrap justify-center items-center p-4">
       <div className="lg:w-2/5 sm:w-full flex flex-col items-center">
-        <img src={wallet} className="w-64" />
+        <img alt="wallet" src={wallet} className="w-64" />
         <p className="text_color lg:text-3xl sm:text-sm">New Here ?</p>
         <p className="text_color px-20 text-center">
           Welcome to DeFi! Create a crypto wallet to start trading on Matcha.
