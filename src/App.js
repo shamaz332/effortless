@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import ArgantMobile from "./components/Setup/ArgantMobile";
 import BinancePath from "./components/Setup/BinancePath";
