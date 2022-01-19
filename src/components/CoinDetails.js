@@ -1,5 +1,5 @@
 import "../styles/global.css";
-
+import Navbar from "../components/Navbar"
 import {
   CategoryScale,
   Chart as ChartJS,
@@ -59,6 +59,7 @@ const data = {
 function CoinDetails() {
   return (
     <div className="">
+       <Navbar/>
       <div className="py-8 sm:py-12 lg:px-40 sm:px-4">
         <div className="flex flex-wrap">
           {/* graph */}

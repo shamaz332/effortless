@@ -3,6 +3,7 @@ import "../styles/global.css";
 import {Menu, Transition } from "@headlessui/react";
 import { MenuIcon, UserCircleIcon } from "@heroicons/react/solid";
 import React, { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,6 +61,7 @@ function Nav() {
                 </svg>
                 <span>Home</span>
               </button>
+              <Link to="coindetail">
               <button className="p-2 inline-flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +78,7 @@ function Nav() {
                   />
                 </svg>
                 <span>Trade</span>
-              </button>
+              </button></Link>
 
               <Menu as="div" className="ml-3 relative">
                 <div>
@@ -98,9 +100,11 @@ function Nav() {
                   leaveTo="transform opacity-0 scale-95"
                 >
                   <Menu.Items className="flex flex-col origin-top-right absolute right-0 mt-2 menu_home">
+               
                     <Menu.Item>
                       {({ active }) => (
-                        <button className="menu_btn mb-5">
+                         
+                        <button className="cursor-pointer menu_btn mb-5">
                           Connect wallet
                         </button>
                       )}
