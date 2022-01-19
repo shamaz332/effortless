@@ -18,9 +18,8 @@ const ArgantMobile = () => {
                 <button className="p-2 inline-flex items-center ">
                 <span className="welcome_btn mr-2">
                   <svg
-                    className="welcome_btn mr-2"
+                    className="welcome_btn mr-2 h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
                     color="white"
                     fill="none"
                     viewBox="0 0 24 24"
