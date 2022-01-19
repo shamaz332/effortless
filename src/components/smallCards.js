@@ -130,7 +130,7 @@ const smallCards = () => {
       <div className="infoCard ml-auto mr-auto lg:m-11">
         <div className="flex flex-col">
           <div className="h-20 lg:pl-12 sm:pl-5 lg:pt-12 sm:pt-5">
-            <div className="eth_logo h-20 w-20 float-left">
+            <div className="binance_small h-20 w-20 float-left">
               <img src={binance} />{" "}
             </div>{" "}
             <div className="eth_logo h-20 w-20 absolute ml-14">

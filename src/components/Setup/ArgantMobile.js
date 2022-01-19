@@ -1,8 +1,5 @@
 import React from "react";
 import argantapp from "../../assests/argantapp.svg";
-import argent from "../../assests/argent.svg";
-import binance_wel from "../../assests/binance_wel.svg";
-import getbitski from "../../assests/getbitski.png";
 import qr from "../../assests/qr.svg"
 
 const ArgantMobile = () => {

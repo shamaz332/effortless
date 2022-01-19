@@ -1,8 +1,5 @@
 import React from "react";
-import argent from "../../assests/argent.svg";
-import binance_wel from "../../assests/binance_wel.svg";
 import bitski from "../../assests/bitski.png"
-import coinbase from "../../assests/coinbase.svg";
 import getbitski from "../../assests/getbitski.png";
 
 const Bitski = () => {

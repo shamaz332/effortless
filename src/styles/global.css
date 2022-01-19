@@ -66,7 +66,7 @@ color: #3D3C58;
 
 .header_wallet_text{
     font-family: Poppins;
-font-style: normal;
+/* font-style: normal; */
 font-weight: normal;
 
 /* identical to box height, or 79% */
@@ -480,4 +480,9 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: rgba(79, 78, 96, 0.72);
+}
+.binance_small{
+    background: linear-gradient(181.43deg, rgba(255, 241, 82, 0.59) 1.22%, rgba(255, 206, 33, 0.4661) 76.52%);
+box-shadow: 2px 24px 33px rgba(249, 211, 77, 0.31), inset -1px -3px 4px rgba(0, 0, 0, 0.25), inset 3px 5px 5px rgba(255, 255, 255, 0.5);
+border-radius: 43px;
 }

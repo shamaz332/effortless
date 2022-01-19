@@ -1,7 +1,4 @@
 import React from "react";
-import argent from "../../assests/argent.svg";
-import binance_wel from "../../assests/binance_wel.svg";
-import bitski from "../../assests/bitski.png"
 import metamaskpic from "../../assests/metamaskpic.svg";
 import metamasksmll from "../../assests/metamasksmll.png";
 

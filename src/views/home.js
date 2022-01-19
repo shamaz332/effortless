@@ -9,12 +9,12 @@ const home = () => {
     return (
         <div >
            <Navbar/>
-              <div className="header_bg relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]">
+              <div className="header_bg relative h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[600px] 2xl:h-[700px]">
         <div className="absolute mt-20 w-full text-center header_body">
-          <h3 className="text-blue-600 font-bold text-3xl text-center">
+          <p className="font-bold lg:text-3xl sm:text-xl text-center">
             Not sure where to go? Perfect
-          </h3>
-          <p className="md:text-3xl p-10 sm:text-small">
+          </p>
+          <p className="md:text-2xl p-10 sm:text-sm">
             effortless finds you the best prices across exchanges and combines
             them into one trade.
           </p>

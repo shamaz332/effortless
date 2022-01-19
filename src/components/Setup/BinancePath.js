@@ -1,8 +1,5 @@
 import React from "react";
-import argent from "../../assests/argent.svg";
 import binance_path from "../../assests/binance_path.svg";
-import binance_wel from "../../assests/binance_wel.svg";
-import coinbase from "../../assests/coinbase.svg";
 import vector from "../../assests/vector.svg";
 import wallet from "../../assests/wallet.svg";
 

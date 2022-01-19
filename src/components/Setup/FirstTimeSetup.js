@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import binance_wel from "../../assests/binance_wel.svg";
-import coinbase from "../../assests/coinbase.svg";
-import gimini from "../../assests/gimini.svg";
-import smily from "../../assests/smily.svg";
 import vector from "../../assests/vector.svg";
 import wallet from "../../assests/wallet.svg";
 
