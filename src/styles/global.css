@@ -27,9 +27,7 @@ height: 100vh;
  width: 500px;
 }
 .nav_btn{
-    background: #F1F2EC;
-box-shadow: -5px -5px 10px #FFFFFF, 5px 5px 10px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+
 }
 
 .nav_btn:active{
@@ -99,7 +97,7 @@ text-decoration: none;
 /* crypto cards */
 
 .cards_container{
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 backdrop-filter: blur(60px);
 }
 .crypto_card1{

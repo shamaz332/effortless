@@ -1,9 +1,10 @@
 import "../styles/global.css";
 
-import {Menu, Transition } from "@headlessui/react";
+import { Menu, Transition } from "@headlessui/react";
 import { MenuIcon, UserCircleIcon } from "@heroicons/react/solid";
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,41 +45,63 @@ function Nav() {
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-4 justify-end text-gray-500 ">
-              <button className="p-2 nav_btn inline-flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                  />
-                </svg>
-                <span>Home</span>
-              </button>
-              <Link to="coindetail">
-              <button className="p-2 inline-flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
-                  />
-                </svg>
-                <span>Trade</span>
-              </button></Link>
+              <NavLink
+                to="/"
+                style={({ isActive }) => ({
+                  background: isActive ? "#F1F2EC" : "",
+                  boxShadow: isActive
+                    ? "-5px -5px 10px #FFFFFF, 5px 5px 10px rgba(0, 0, 0, 0.25)"
+                    : "",
+                  borderRadius: isActive ? " 8px" : "",
+                })}
+              >
+                <button className="p-2 nav_btn active inline-flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                    />
+                  </svg>
+                  <span>Home</span>
+                </button>
+              </NavLink>
+
+              <NavLink
+            to="/coindetail"
+            style={({ isActive }) => ({
+              background: isActive ? "#F1F2EC" : "",
+              boxShadow: isActive
+                ? "-5px -5px 10px #FFFFFF, 5px 5px 10px rgba(0, 0, 0, 0.25)"
+                : "",
+              borderRadius: isActive ? " 8px" : "",
+            })}
+          >
+                <button className="p-2 nav_btn inline-flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                    />
+                  </svg>
+                  <span>Trade</span>
+                </button>
+              </NavLink>
 
               <Menu as="div" className="ml-3 relative">
                 <div>
@@ -100,10 +123,8 @@ function Nav() {
                   leaveTo="transform opacity-0 scale-95"
                 >
                   <Menu.Items className="flex flex-col origin-top-right absolute right-0 mt-2 menu_home">
-               
                     <Menu.Item>
                       {({ active }) => (
-                         
                         <button className="cursor-pointer menu_btn mb-5">
                           Connect wallet
                         </button>
