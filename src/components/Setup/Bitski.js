@@ -50,7 +50,7 @@ const Bitski = () => {
       </div>
       {/* welcome body    */}
 
-      <div className="flex flex-wrap justify-center items-center p-4">
+      <div className="flex flex-wrap justify-center items-center px-20 py-20">
         <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
         <button className="bitski_btn w-60">username & password </button>
           <p className="text_color lg:text-4xl mt-5 sm:text-sm">

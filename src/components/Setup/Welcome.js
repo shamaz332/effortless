@@ -53,7 +53,7 @@ const Welcome = () => {
       </div>
       {/* welcome body    */}
 
-      <div className="flex flex-wrap justify-center items-center p-4">
+      <div className="flex flex-wrap justify-center items-center px-20 py-20">
         <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
           <img alt="wallet" src={wallet} className="w-64" />
           <p className="text_color lg:text-3xl sm:text-sm">Welcome to DeFi</p>
