@@ -61,7 +61,7 @@ const Bitski = () => {
 trading on Matcha.
             </h3>{" "}
           </div>{" "}
-          <img alt="getbitski" src={getbitski} className="" />
+          <img alt="getbitski" src={getbitski} className="w-1/2 mt-10" />
 
       
         </div>
