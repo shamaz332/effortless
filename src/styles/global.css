@@ -97,11 +97,25 @@ text-decoration: none;
 
 /* header part complete */
 
+@media screen and (max-width: 600px) {
+    .img_conn{
+        display:flex;
+        justify-content:center;
+        width:80vw
+    }
+    .Line_chart{
+        width: 100vw;
+    }
+    .send_money{
+        margin: 4px;
+    }
+  }
 /* crypto cards */
 
 .cards_container{
     /* background: #FFFFFF; */
 backdrop-filter: blur(60px);
+/* margin-top: -7%; */
 }
 .crypto_card1{
     background: linear-gradient(360deg, rgba(76, 138, 226, 0.6873) -21.62%, rgba(146, 182, 234, 0.5046) 81.67%);

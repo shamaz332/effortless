@@ -22,7 +22,7 @@ const Welcome = () => {
                 <button className="p-2 inline-flex items-center ">
                 <span className="welcome_btn mr-2">
                   <svg
-                    className="welcome_btn mr-2 h-6 w-6"
+                    className="welcome_btn h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     color="white"
                     fill="none"
@@ -54,9 +54,9 @@ const Welcome = () => {
       {/* welcome body    */}
 
       <div className="flex flex-wrap justify-center items-center px-20 py-20">
-        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
+        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20 mb-8">
           <img alt="wallet" src={wallet} className="w-64" />
-          <p className="text_color lg:text-3xl sm:text-sm">Welcome to DeFi</p>
+          <p className="text_color text-3xl">Welcome to DeFi</p>
           <p className="text_color ">
             We will guide you through the process of creating a wallet and
             funding your account, so you can start trading in no time!

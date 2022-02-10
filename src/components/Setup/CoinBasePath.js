@@ -52,9 +52,9 @@ const CoinBasePath = () => {
       {/* welcome body    */}
 
       <div className="flex flex-wrap justify-center items-center px-20 py-20">
-        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
+        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20 mb-8">
           <img alt="wallet" src={wallet} className="w-64" />
-          <p className="text_color lg:text-5xl sm:text-sm">
+          <p className="text_color text-3xl sm:text-sm">
             Set up a wallet to store crypto
           </p>
           <div className="flex mt-4">

@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import Navbar from "../components/Navbar"
+
 import {
   CategoryScale,
   Chart as ChartJS,
@@ -12,6 +12,7 @@ import {
 } from "chart.js";
 
 import { Line } from "react-chartjs-2";
+import Navbar from "../components/Navbar"
 import ethiriumLogo from "../assests/ethiriumLogo.svg";
 
 ChartJS.register(
@@ -60,7 +61,7 @@ function CoinDetails() {
   return (
     <div className="">
        <Navbar/>
-      <div className="py-8 sm:py-12 lg:px-40 sm:px-4">
+      <div className="py-8 sm:py-12 lg:px-40 sm:px-4 p-4">
         <div className="flex flex-wrap">
           {/* graph */}
           <div className="">
@@ -107,12 +108,12 @@ function CoinDetails() {
         </div>
         {/* chart & order card  */}
         <div className="flex flex-wrap items-center">
-          <div className="lg:w-3/4 sm:w-full">
+          <div className="lg:w-3/4 sm:w-full Line_chart">
             {/* chart    */}
             <Line options={options} data={data} />
           </div>
 
-          <div className="lg:w-1/4 sm:w-full ackTokens p-6">
+          <div className="lg:w-1/4 sm:w-full ackTokens p-6 send_money">
             <div className="flex items-center justify-between border-b border-textClr p-2">
               <p>Market</p>
               <p>Limit</p>
@@ -228,7 +229,7 @@ function CoinDetails() {
         </div>
         <p className="text-3xl text_color">Trending Pairs</p>
 
-        <div className="flex flex-wrap w-2/3 p-4 mt-4 items-center">
+        <div className="flex overflow-scroll p-4 mt-4 items-center">
           <div className="relative w-40">
             <div className="absolute eth_logo">
               

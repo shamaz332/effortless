@@ -51,9 +51,9 @@ const Bitski = () => {
       {/* welcome body    */}
 
       <div className="flex flex-wrap justify-center items-center px-20 py-20">
-        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
+        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20 mb-8">
         <button className="bitski_btn w-60">username & password </button>
-          <p className="text_color lg:text-4xl mt-5 sm:text-sm">
+          <p className="text_color text-3xl mt-5">
           Get Bitski          </p>
           <div className="flex mt-4">
             <h3 className="text_color ml-2">
@@ -61,8 +61,9 @@ const Bitski = () => {
 trading on Matcha.
             </h3>{" "}
           </div>{" "}
-          <img alt="getbitski" src={getbitski} className="w-1/2 mt-10" />
-
+          <div className="img_conn">
+          <img alt="getbitski" src={getbitski} className="w-3/5 mt-10 content-center" />
+          </div>
       
         </div>
 
