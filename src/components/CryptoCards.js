@@ -14,7 +14,7 @@ import unicorn from "../assests/unicorn.svg";
 const CryptoCards = () => {
   return (
     <div className="cards_container">
-     <div className="container mx-auto px-4 md:px-12">
+     <div className="container my-12 mx-auto px-4 md:px-12">
     <div className="flex flex-wrap justify-center -mx-2 lg:-mx-1">
           <div className="m-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-60 crypto_card1">
             <article className="overflow-hidden rounded-lg">

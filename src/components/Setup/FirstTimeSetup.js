@@ -10,7 +10,7 @@ const FirstTimeSetup = () => {
         <header>
           {/* left      */}
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-wrap items-center justify-between h-16">
+            <div className="flex flex-wrapitems-center justify-between h-16">
               <div>
                 <p className="logo">effortless</p>
               </div>
@@ -19,8 +19,9 @@ const FirstTimeSetup = () => {
                 <button className="p-2 inline-flex items-center ">
                 <span className="welcome_btn mr-2">
                   <svg
-                    className="welcome_btn h-6 w-6"
+                    className="welcome_btn mr-2 h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
+                    
                     color="white"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -51,9 +52,9 @@ const FirstTimeSetup = () => {
       {/* welcome body    */}
 
       <div className="flex flex-wrap justify-center items-center px-20 py-20">
-        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20 mb-10">
+        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
           <img alt="wallet" src={wallet} className="w-64" />
-          <p className="text_color text-3xl">
+          <p className="text_color lg:text-5xl sm:text-sm">
             Set up a wallet to store crypto
           </p>
           <div className="flex mt-4">
@@ -74,7 +75,7 @@ const FirstTimeSetup = () => {
           </div>{" "}
         </div>
 
-        <div className="lg:w-2/5 sm:w-full">
+        <div className="lg:w-2/5 sm:w-full ">
             <div className="welcome_cards flex flex-col px-7 py-7 lg:w-3/4 sm:w-full">          <p className="text_color text-xl font-bold welcome_border">
             Choose your Wallet
           </p>

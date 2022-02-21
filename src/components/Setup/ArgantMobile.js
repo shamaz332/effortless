@@ -50,20 +50,18 @@ const ArgantMobile = () => {
       {/* welcome body    */}
 
       <div className="flex flex-wrap justify-center items-center px-20 py-20">
-        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20 mb-8">
+        <div className="lg:w-3/5 sm:w-full flex flex-col lg:px-20">
         <button className="bitski_btn w-60">Mobile App </button>
-          <p className="text_color text-3xl mt-5">
+          <p className="text_color lg:text-4xl mt-5 sm:text-sm">
           Get Argent Wallet     </p>
           <div className="flex mt-4">
             <h3 className="text_color ml-2">
             Argent Wallet lets you to store and send your tokens from 
 a mobile device. Only you have access to your accounts and data.
             </h3>{" "}
-          </div>{" "}
-       
-          <div className="img_conn">
-          <img alt="argantapp" src={argantapp} className="w-3/5 mt-10 content-center" />
-          </div>
+          < /div>{" "}
+          <img alt="argantapp" src={argantapp} className="w-1/2 mt-10" />
+
       
         </div>
 
