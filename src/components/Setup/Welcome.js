@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import React from "react";
 import binance_wel from "../../assests/binance_wel.svg";
@@ -231,7 +232,7 @@ const Welcome = () => {
             </div>
           </div>
         </div>
-      </div></div>
+      </div></div> <Footer/>
     </div>
   );
 };

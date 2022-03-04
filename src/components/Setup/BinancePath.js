@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import binance_path from "../../assests/binance_path.svg";
 import vector from "../../assests/vector.svg";
@@ -153,7 +154,7 @@ recommended by Binance
           </div>
         </div>
       </div></div>
-
+      <Footer/>
     </div>
   );
 };

@@ -89,7 +89,7 @@ color: #3D3C58;
 .wallet_line{
 color: rgb(112, 110, 255);
 font-family: Gilroy, sans-serif;
-font-size: 16px;
+font-size: 19px;
 font-weight: 600;
 line-height: 140%;
 text-decoration: none;
@@ -459,7 +459,8 @@ padding: 60%;
     background: linear-gradient(262.9deg, #C6F1FF -1.46%, #DAD2D8 105.2%);
 box-shadow: -43px -20px 36px rgba(255, 255, 255, 0.31), 4px 15px 16px rgba(0, 0, 0, 0.05), inset 0px 4px 8px #FFFFFF, inset 0px -1px 7px rgba(0, 0, 0, 0.24);
 border-radius: 85px;
-padding:5%
+padding:5%;
+width:100%
 }
 
 .bitski_btn{

@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import bitski from "../../assests/bitski.png"
 import getbitski from "../../assests/getbitski.png";
@@ -99,7 +100,7 @@ trading on Matcha.
                 </button>
           </div>
         </div>
-      </div>
+      </div> <Footer/>
     </div>
   );
 };

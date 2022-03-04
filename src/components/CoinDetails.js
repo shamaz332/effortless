@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import Navbar from "../components/Navbar"
+
 import {
   CategoryScale,
   Chart as ChartJS,
@@ -11,7 +11,9 @@ import {
   Tooltip,
 } from "chart.js";
 
+import Footer from "./Footer";
 import { Line } from "react-chartjs-2";
+import Navbar from "../components/Navbar"
 import ethiriumLogo from "../assests/ethiriumLogo.svg";
 
 ChartJS.register(
@@ -327,6 +329,7 @@ function CoinDetails() {
         <p className="p-2 text_color">Network</p>
         <p className="p-2 text_color text-3xl">Ethereum (Chain 1)</p>
       </div>
+      <Footer/>
     </div>
   );
 }

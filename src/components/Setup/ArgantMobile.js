@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import argantapp from "../../assests/argantapp.svg";
 import qr from "../../assests/qr.svg"
@@ -59,7 +60,7 @@ const ArgantMobile = () => {
             Argent Wallet lets you to store and send your tokens from 
 a mobile device. Only you have access to your accounts and data.
             </h3>{" "}
-          < /div>{" "}
+          </div>{" "}
           <img alt="argantapp" src={argantapp} className="w-1/2 mt-10" />
 
       
@@ -88,7 +89,7 @@ a mobile device. Only you have access to your accounts and data.
              
           </div>
         </div>
-      </div>
+      </div> <Footer/>
     </div>
   );
 };

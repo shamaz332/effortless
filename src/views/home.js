@@ -1,6 +1,7 @@
 import "./home.css"
 
 import CryptoCards from '../components/CryptoCards'
+import {Link} from "react-router-dom";
 import Navbar from '../components/Navbar'
 import React from 'react'
 import SmallCards from '../components/smallCards.js'
@@ -9,9 +10,9 @@ import header_wallet from "../assests/header_wallet.svg";
 
 const home = () => {
     return (
-        <div >
+        <div className="home_grad">
            <Navbar/>
-              <div className="header_bg h-[400px] sm:h-[400px] lg:h-[400px] xl:h-[400px] 2xl:h-[600px]">
+              <div className="header_bg h-[400px] sm:h-[400px] lg:h-[400px] xl:h-[400px] 2xl:h-[500px]">
         <div className="mt-20 w-full text-center header_body">
           <p className="font-bold lg:text-3xl sm:text-xl text-center">
             Not sure where to go? Perfect
@@ -20,7 +21,7 @@ const home = () => {
             effortless finds you the best prices across exchanges and combines
             them into one trade.
           </p>
-
+<Link to="/coindetail">
           <button className="p-2 wallet_btn inline-flex items-center">
             <img
             alt="header_wallet"
@@ -35,8 +36,9 @@ const home = () => {
               className="hidden md:flex pr-2 header_wallet_arrow"
               src={arrow}
             />
-          </button><br/>
-      <a href="/" className="text-center wallet_line">Buy crypto with credit or debit card →</a>
+          </button></Link><br/>
+          <p className="text-4xl">
+      <a href="/" className="text-center wallet_line">Buy crypto with credit or debit card →</a></p>
         
         </div>
         

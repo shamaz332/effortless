@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import coinbase from "../../assests/coinbase.svg";
 import vector from "../../assests/vector.svg";
@@ -154,7 +155,7 @@ const CoinBasePath = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> <Footer/>
     </div>
   );
 };

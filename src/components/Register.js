@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import React from "react";
 import wallet from "../assests/wallet.svg";
 
@@ -50,7 +51,7 @@ const Register = () => {
         >
        Connect Biskti wallet{" "}
         </button>
-      </div>
+      </div> <Footer/>
     </div>
   );
 };

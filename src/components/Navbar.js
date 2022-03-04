@@ -1,10 +1,9 @@
 import "../styles/global.css";
 
+import { Link, NavLink } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 import { MenuIcon, UserCircleIcon } from "@heroicons/react/solid";
 import React, { Fragment, useState } from "react";
-
-import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -125,9 +124,10 @@ function Nav() {
                   <Menu.Items className="flex flex-col origin-top-right absolute right-0 mt-2 menu_home">
                     <Menu.Item>
                       {({ active }) => (
-                        <button className="cursor-pointer menu_btn mb-5">
+                        <Link to="/welcome"> 
+                        <button className="cursor-pointer menu_btn mb-5" >
                           Connect wallet
-                        </button>
+                        </button></Link>
                       )}
                     </Menu.Item>
                     <div className="border-b-2 text_color"></div>

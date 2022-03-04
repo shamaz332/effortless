@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import { Link } from "react-router-dom";
 import React from "react";
 import vector from "../../assests/vector.svg";
@@ -237,7 +238,7 @@ const FirstTimeSetup = () => {
           </div>
         </div>
       </div></div>
-
+      <Footer/>
     </div>
   );
 };

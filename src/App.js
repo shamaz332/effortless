@@ -30,7 +30,7 @@ function App() {
         <Route path="welcome/firsttime/argantapp" element={<ArgantMobile />} />
         <Route path="welcome/firsttime/metamask" element={<MetaMask />} />
       </Routes>
-      <Footer/>
+     
     </div>
   );
 }

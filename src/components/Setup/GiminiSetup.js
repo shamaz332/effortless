@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import argent from "../../assests/argent.svg";
 import vector from "../../assests/vector.svg";
@@ -91,7 +92,7 @@ custody Ether wallet
               <div className="ml-3">
                 {/* text    */}
                 <p className="welcome_first_text text-sm">
-                Continue with Trust
+                Continue with Argent
                 </p>
                 <p className="welcome_second_text text-xs">
                 8min setup - Works in most apps
@@ -155,7 +156,7 @@ custody Ether wallet
           </div>
         </div>
       </div></div>
-
+      <Footer/>
     </div>
   );
 };

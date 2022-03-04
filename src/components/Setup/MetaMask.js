@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import React from "react";
 import metamaskpic from "../../assests/metamaskpic.svg";
 import metamasksmll from "../../assests/metamasksmll.png";
@@ -102,7 +103,7 @@ the external flow</p></div>
                 </button>
           </div>
         </div>
-      </div>
+      </div> <Footer/>
     </div>
   );
 };
