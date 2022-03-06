@@ -6,7 +6,6 @@ import Bitski from "./components/Setup/Bitski";
 import CoinBasePath from "./components/Setup/CoinBasePath";
 import CoinDetails from "./components/CoinDetails";
 import FirstTimeSetup from "./components/Setup/FirstTimeSetup";
-import Footer from "./components/Footer";
 import GiminiSetup from "./components/Setup/GiminiSetup";
 import Home from "./views/home";
 import MetaMask from "./components/Setup/MetaMask";
