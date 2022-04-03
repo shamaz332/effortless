@@ -165,7 +165,7 @@ function Nav() {
             </div>{" "}
           </div>
         </div>
-        <div className="-mr-2 flex md:hidden">
+        <div className="mr-2 flex justify-end align-middle md:hidden -mt-10">
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"

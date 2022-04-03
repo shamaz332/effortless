@@ -148,7 +148,7 @@ const smallCards = () => {
         </div>{" "}
       </div>
       {/* small icons   part */}
-      <div className="m-12 flex flex-wrap justify-around mt-20">
+      <div className="m-12 flex flex-wrap justify-around ml-auto mr-auto mt-20 small_icons_end">
         <div className="flex flex-col items-center justify-center">
           <img alt="fire" className="fire p-3 h-20 w-20" src={fire} />
           <h1 className="font-semibold text-center text-small text_high_two">
@@ -215,13 +215,13 @@ const smallCards = () => {
                   </div>
                   <div className="flex">
                     <div className="flex text_high_toke mt-4">
-                      <img alt="vecter" src={vector} className="vecter" />
+                      <img alt="vecter" src={vector} className="vecter hidden md:block" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
                     </div>{" "}
                     <div className="flex text_high_toke mt-4">
-                      <img alt="vecter" src={vector} className="vecter" />
+                    <img alt="vecter" src={vector} className="vecter hidden md:block" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
@@ -229,13 +229,13 @@ const smallCards = () => {
                   </div>{" "}
                   <div className="flex">
                     <div className="flex text_high_toke mt-4">
-                      <img alt="vecter" src={vector} className="vecter" />
+                    <img alt="vecter" src={vector} className="vecter hidden md:block" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
                     </div>{" "}
                     <div className="flex text_high_toke mt-4">
-                      <img alt="vecter" src={vector} className="vecter" />
+                    <img alt="vecter" src={vector} className="vecter hidden md:block" />
                       <h3 className="text_color ml-2">
                         Market, limit or OTC for any sized trades{" "}
                       </h3>{" "}
@@ -253,9 +253,7 @@ const smallCards = () => {
         </div>{" "}
       </div>{" "}
       {/* end      */}{" "}
-      <div className=" mt-10 md:text-4xl sm:text-lg text_high_two">
-        <h1>Need help with something ? </h1>{" "}
-      </div>
+
     </div>
   );
 };

@@ -49,8 +49,11 @@ const home = () => {
 {/* //footer on home page    */}
 <footer className="footer-1 bg-gray-100 py-8 sm:py-12">
         <div className="container mx-auto px-4">
-          
+        <div className=" mt-10 md:text-4xl sm:text-lg text_high_two_xl ">
+        <h1>Need help with something ? </h1>{" "}
+      </div>
 <div className="sm:flex sm:flex-wrap justify-center sm:-mx-4 md:py-4">
+  
             <div className="px-10 sm:w-1/2 md:w-1/2 xl:w-1/2">
               <h5 className="text-4xl font-bold mb-6 footer_heading">Help</h5>
               <ul className="list-none footer-links">

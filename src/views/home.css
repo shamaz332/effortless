@@ -1,13 +1,99 @@
-.home_grad {
-	background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
-	height:75vh;
-	border-bottom-left-radius: 2500px;
-	border-bottom-right-radius: 2500px;
 
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 392px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:40vh;
+
+	
+	}
 }
 
+
+@media only screen and (min-width: 760px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:50vh;
+		border-bottom-left-radius: 2500px;
+		border-bottom-right-radius: 2500px;
+	
+	}
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:50vh;
+		border-bottom-left-radius: 2500px;
+		border-bottom-right-radius: 2500px;
+	
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:50vh;
+		border-bottom-left-radius: 500px;
+		border-bottom-right-radius: 500px;
+	
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:70vh;
+
+	
+	}
+}
+@media only screen and (min-width: 1900px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:50vh;
+
+	
+	}
+}
+@media only screen and (min-width: 2100px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:45vh;
+
+	
+	}
+}
+@media only screen and (min-width: 2300px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:25vh;
+
+	
+	}
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

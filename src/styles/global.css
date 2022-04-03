@@ -142,6 +142,12 @@ border-radius: 43px;}
     padding-top: 4%;
     color: #555563;
 }
+.text_high_two_xl{
+    padding-top: 4%;
+
+    color: #555563;
+    align-content: center;
+}
 .text_color{
     color: #555563;
 }
@@ -217,7 +223,7 @@ box-shadow: -6px 22px 45px rgba(99, 91, 255, 0.2), inset -2px 4px 4px rgba(255, 
 
 /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 26px;
+border-radius: 26px;height: 600px;
 }
 
 
@@ -229,15 +235,20 @@ margin-right: auto;
 
 .grid_tokens{
     padding: 5% 10%;
+    max-width: 2500px;
 }
 .wallt_img{
     height: 50vh;
+    max-height: 500px;
   
 }
 .ackTokens_outer{
 margin-left: auto;
 margin-right: auto;
     width: 80vw;
+    max-width: 1800px;
+    
+
 }
 .vecter{
     background-color: #E5E5E5;
@@ -376,7 +387,7 @@ padding:6px
         background: linear-gradient(130.96deg, rgba(255, 251, 251, 0.49) 11.8%, rgba(255, 255, 255, 0) 115.3%);
     box-shadow: inset 4px -4px 13px rgba(240, 122, 255, 0.51), inset 5px 7px 11px #FFFFFF;
     border-radius: 85px;
-    height: 50vh;
+    height: 350px;
     width: 90%;
     padding: 30px;
     margin-left: auto;
@@ -391,7 +402,7 @@ padding:6px
         background: linear-gradient(130.96deg, rgba(255, 251, 251, 0.49) 11.8%, rgba(255, 255, 255, 0) 115.3%);
     box-shadow: inset 4px -4px 13px rgba(240, 122, 255, 0.51), inset 5px 7px 11px #FFFFFF;
     border-radius: 85px;
-    height: 50vh;
+    height: 350px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -405,7 +416,7 @@ padding:6px
         background: linear-gradient(130.96deg, rgba(255, 251, 251, 0.49) 11.8%, rgba(255, 255, 255, 0) 115.3%);
     box-shadow: inset 4px -4px 13px rgba(240, 122, 255, 0.51), inset 5px 7px 11px #FFFFFF;
     border-radius: 85px;
-    height: 50vh;
+    height: 350px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -421,7 +432,7 @@ padding:6px
     background: linear-gradient(130.96deg, rgba(255, 251, 251, 0.49) 11.8%, rgba(255, 255, 255, 0) 115.3%);
 box-shadow: inset 4px -4px 13px rgba(240, 122, 255, 0.51), inset 5px 7px 11px #FFFFFF;
 border-radius: 85px;
-height: 50vh;
+height: 350px;
 width: 50%;
 margin-left: auto;
 margin-right: auto;
@@ -437,7 +448,7 @@ margin-right: auto;
         background: linear-gradient(130.96deg, rgba(255, 251, 251, 0.49) 11.8%, rgba(255, 255, 255, 0) 115.3%);
     box-shadow: inset 4px -4px 13px rgba(240, 122, 255, 0.51), inset 5px 7px 11px #FFFFFF;
     border-radius: 85px;
-    height: 50vh;
+    height: 350px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -445,6 +456,9 @@ margin-right: auto;
     }
 }
 
+.small_icons_end{
+    max-width: 1500px;
+}
 .menu_home{
     background: linear-gradient(254.92deg, #F6EDCF -98.27%, rgba(255, 255, 255, 0.47) 171.55%);
 box-shadow: -22px 45px 45px rgba(255, 241, 82, 0.06), inset -4px -4px 9px rgba(0, 0, 0, 0.18), inset 7px 7px 4px #FFFFFF, inset 7px -3px 8px rgba(0, 0, 0, 0.2);

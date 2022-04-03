@@ -86,7 +86,7 @@ const CryptoCards = () => {
         
       </div>
 <div className="text-center font-normal text-2xl ">
-  <h3 className="text-textClr">
+  <h3 className="text-textClr hidden md:block">
 Ethereum, Binance, Polygon tokens
 </h3>
 </div>
