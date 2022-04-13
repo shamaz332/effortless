@@ -223,7 +223,7 @@ box-shadow: -6px 22px 45px rgba(99, 91, 255, 0.2), inset -2px 4px 4px rgba(255, 
 
 /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 26px;height: 600px;
+border-radius: 26px;min-height: 400px;
 }
 
 

@@ -6,14 +6,25 @@
 		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
 		background-size: 400% 400%;
 		animation: gradient 10s ease infinite;
-		height:40vh;
-
+		height:50vh;
+		border-bottom-left-radius: 700px;
+		border-bottom-right-radius: 700px;
+	
+	}
+}
+@media only screen and (min-width: 392px) {
+	.home_grad {
+		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		height:50vh;
+		border-bottom-left-radius: 700px;
+		border-bottom-right-radius: 700px;
 	
 	}
 }
 
-
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 767px) {
 	.home_grad {
 		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
 		background-size: 400% 400%;
