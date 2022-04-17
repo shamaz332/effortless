@@ -58,7 +58,7 @@ function Nav() {
                 })}
               >
                 <button className="p-2 nav_btn active inline-flex items-center">
-                 <img src={homeIcom} className="w-5 mr-1"/>
+                 <img src={homeIcom} alt="gome icom" className="w-5 mr-1"/>
                   <span>Home</span>
                 </button>
               </NavLink>
@@ -74,7 +74,7 @@ function Nav() {
             })}
           >
                 <button className="p-2 nav_btn inline-flex items-center">
-                <img src={tradeIcon} className="w-5 mr-1"/>
+                <img src={tradeIcon} alt="gome icom" className="w-5 mr-1"/>
                   <span>Trade</span>
                 </button>
               </NavLink>
