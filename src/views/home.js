@@ -12,7 +12,7 @@ const home = () => {
     return (
         <div className="home_grad">
            <Navbar/>
-              <div className="header_bg h-[400px] sm:h-[400px] lg:h-[400px] xl:h-[400px] 2xl:h-[500px]">
+              <div className="header_bg h-[430px] sm:h-[430px] lg:h-[450px] xl:h-[450px] 2xl:h-[500px]">
         <div className="mt-20 w-full text-center header_body">
           <p className="font-bold lg:text-3xl sm:text-xl text-center">
             Not sure where to go? Perfect

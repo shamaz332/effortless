@@ -72,7 +72,8 @@
 		animation: gradient 10s ease infinite;
 		height:70vh;
 
-	
+		border-bottom-left-radius: 800px;
+		border-bottom-right-radius:800px;
 	}
 }
 @media only screen and (min-width: 1900px) {
@@ -80,8 +81,9 @@
 		background: linear-gradient(-45deg, #fabfac, #eb6b9c, #23a6d5, #23d5ab);
 		background-size: 400% 400%;
 		animation: gradient 10s ease infinite;
-		height:50vh;
-
+		height:55vh;
+		border-bottom-left-radius: 800px;
+		border-bottom-right-radius:800px;
 	
 	}
 }
@@ -91,7 +93,8 @@
 		background-size: 400% 400%;
 		animation: gradient 10s ease infinite;
 		height:45vh;
-
+		border-bottom-left-radius: 800px;
+		border-bottom-right-radius:800px;
 	
 	}
 }
@@ -101,7 +104,8 @@
 		background-size: 400% 400%;
 		animation: gradient 10s ease infinite;
 		height:25vh;
-
+		border-bottom-left-radius: 800px;
+		border-bottom-right-radius:800px;
 	
 	}
 }
